@@ -11,15 +11,15 @@ on:
         
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
-  DEVICE: newifi3-d2
+  DEVICE: TX1806
   UPLOAD_OUTPUT: true
 
 jobs:
-   newifi3-d2:
+   TX1806:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
